@@ -1,0 +1,13 @@
+Objective: Develop a low-cost flight data logger based on Arduino for acquiring and storing inertial and atmospheric data.  
+
+Sensors: MPU6050 (3-axis accelerometer and gyroscope) and BMP280 (temperature and pressure sensor).  
+
+Measured Variables: Time, acceleration (x, y, z), angular velocity (x, y, z), temperature, pressure, and estimated altitude.  
+
+Sampling Rate: 10 Hz (initial configuration).  
+
+Data Storage: CSV file via microSD (with serial output as backup).  
+
+Post-Processing: Data visualization and analysis using Python (pandas and matplotlib).  
+
+Application: Demonstration of basic flight-data acquisition concepts used in drones, educational rockets, and embedded aerospace systems. 
