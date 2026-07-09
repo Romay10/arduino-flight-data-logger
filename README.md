@@ -1,7 +1,6 @@
-# arduino-flight-data-logger
-# Arduino Flight Data Logger
+# Flight Data Logger
 
-A low-cost embedded flight data logger built with Arduino. The system records inertial and atmospheric data using MEMS sensors and stores the measurements for subsequent analysis in Python.
+A low-cost embedded flight data logger based on the ESP32. The system records inertial and atmospheric data using MEMS sensors and stores the measurements for subsequent analysis in Python.
 
 ## Objectives
 - Acquire acceleration and angular rate data.
@@ -11,13 +10,13 @@ A low-cost embedded flight data logger built with Arduino. The system records in
 - Demonstrate the principles of basic flight data recording and telemetry used in educational aerospace systems.
 
 ## Planned Hardware
-- Arduino UNO
+- ESP32 development board
 - MPU6050 IMU
 - BMP280 barometric sensor
 - microSD module
 
 ## Repository Structure
-- `Arduino/`: Arduino source code.
+- `Arduino/`: ESP32 source code.
 - `Python/`: Data analysis scripts.
 - `Data/`: Example datasets.
 - `Images/`: Photographs and plots.
